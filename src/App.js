@@ -7,7 +7,7 @@ import Dashboard from './components/Dashboard';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App md:hidden">
       <Routes>
         <Route path='/' element={<Onboard />}></Route>
         <Route path='signup' element={<Signin />}></Route>
